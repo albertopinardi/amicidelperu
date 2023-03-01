@@ -1,0 +1,4 @@
+baseURL = 'https://amicidelperu.it/'
+languageCode = 'it-it'
+title = 'Amici Del Perù'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
