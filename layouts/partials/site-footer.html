@@ -1,0 +1,13 @@
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+    <div class="flex justify-between">
+    <a class="f4 fw4 hover-black no-underline black-70 dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
+      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+    </a>
+    <div class="f4 fw4 hover-black no-underline black-70 dn dib-ns pv2 ph3">
+      {{ with .Site.Params.footer }}
+        {{ . | safeHTML }}
+      {{ end }}
+    </div>
+      <div>{{ partial "social-follow.html" . }}</div>
+    </div>
+  </footer>
