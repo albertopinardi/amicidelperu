@@ -10,4 +10,4 @@ cascade:
 Siamo un catering di Volontari con sede a Faenza(RA). Ci impegniamo a sostenere i nostri amici in Missione in America Latina: principalmente in Perù, Bolivia e Ecuador.
 Da qui il nome Amici del Perù.
 
-Se vuoi conoscerci e aiutarci nella nostra causa puoi contattarci tramite e-mail all'indirizzo : [info@amicidelperu.it](mailto:info@amicidelperu.it)
+Se vuoi conoscerci e sostenere i nostri progetti puoi contattarci tramite e-mail all'indirizzo : [info@amicidelperu.it](mailto:info@amicidelperu.it)
