@@ -1,13 +1,7 @@
 ---
-title: "Amici Del Perù"
-
-description: "Catering di Volontari a sostegno dei nostri amici in Missione."
-cascade:
-  featured_image: '/images/tavolaimbandita.jpg'
+# Striking header background image, Ideal images are homogenous around the centre and contrasting to the text. Non-ideal images can use `title_guard`
+header_image: "images/tavolaimbandita.jpg"
+header_logo: "images/logo.svg"
+header_headline: "Amici del Perù"
+header_subheadline: "Volontari a sostegno dei nostri amici in Missione."
 ---
-## Benvenuti
-
-Siamo un catering di Volontari con sede a Faenza(RA). Ci impegniamo a sostenere i nostri amici in Missione in America Latina: principalmente in Perù, Bolivia e Ecuador.
-Da qui il nome Amici del Perù.
-
-Se vuoi conoscerci e sostenere i nostri progetti puoi contattarci tramite e-mail all'indirizzo : [info@amicidelperu.it](mailto:info@amicidelperu.it)

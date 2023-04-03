@@ -1,7 +1,7 @@
 baseURL = 'https://amicidelperu.it/'
 languageCode = 'it-it'
 title = 'Amici Del Perù'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = "hugo-scroll"
 
 resourceDir = "../resources"
 
@@ -13,33 +13,50 @@ SectionPagesMenu = "main"
 googleAnalytics = "G-G22JF4L9TD"
 enableRobotsTXT = true
 
-#[languages]
-#  [languages.en]
-#    title = "Ananke"
-#    weight = 1
-#    contentDir = "content/en"
-#    # languageDirection = 'rtl' for Right-To-Left languages
-#  [languages.fr]
-#    title = "Ananke Fr"
-#    weight = 2
-#    contentDir = "content/fr"
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+# Theme-specific variables `.Site.Params.myParamName`
+[params]
+
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "images/logo_64.ico"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
+    # NOT the actual header background image, go to _index.md instead
+    images = ["images/cover-image.jpg"]
+
+    # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
+    # Ideal images are homogenous around the centre and contrasting to the text.
+    # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
+    # see _index.md header_headline and header_subheadline
+    title_guard = false
+
+    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+    # opengraph structured data template.
+    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+    title = "Amici Del Perù"
+
+    # The "description" of your website. This is used in the meta data of your generated html.
+    description = "Nutrition Coach & Chef Consultant"
+
+    # A "copyright"-line to be added at the bottom of the page.
+    # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    copyright = "© Amici Del Perù"
+
+    # This theme will, by default, inject a design-by-line at the bottom of the page.
+    # You can turn it off, but we would really appreciate if you don’t :-)
+    hidedesignbyline = true
+
+    # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
+    invertSectionColors = false
+    
+    [params.meta]
+        keywords = "catering, caterign di volontari, amici del peru, catering volontariato"
 
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
-
-[params]
-#  text_color = ""
-#  author = ""
-  favicon = "images/logo_64.ico"
-# site_logo = "images/logo.svg"
-#  description = "The last theme you'll ever need. Maybe."
-#  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-washed-green"
-#  recent_posts_number = 3
-  footer = "VAT IT01262830399 - CF 90010520394 -  Via Pagani 5 - 48018 - Faenza(RA)"
-
-#[[params.ananke_socials]]
-#name = "twitter"
-#url = "https://twitter.com/GoHugoIO"
