@@ -2,4 +2,4 @@ https://:project.pages.dev/*
   X-Robots-Tag: noindex
 
 /*
-  Access-Control-Allow-Origin: https://*:project.pages.dev/
+  Access-Control-Allow-Origin: *
