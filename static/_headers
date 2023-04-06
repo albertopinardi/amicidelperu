@@ -4,3 +4,9 @@ https://:project.pages.dev/*
 https://amicidelperu.it/*
   Access-Control-Allow-Origin: https://www.amicidelperu.it
   Vary: origin
+
+/css/*
+  Access-Control-Allow-Origin: *
+
+/js/*
+  Access-Control-Allow-Origin: *
