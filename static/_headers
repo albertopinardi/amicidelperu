@@ -1,5 +1,0 @@
-https://:project.pages.dev/*
-  X-Robots-Tag: noindex
-
-/*
-  Content-Security-Policy: style-src self; script-src self
