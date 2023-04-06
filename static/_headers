@@ -2,4 +2,4 @@ https://:project.pages.dev/*
   X-Robots-Tag: noindex
 
 /*
-  Content-Security-Policy: default-src https:
+  Content-Security-Policy: style-src unsafe-inline; script-src unsafe-inline
