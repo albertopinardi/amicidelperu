@@ -40,7 +40,7 @@ disableKinds = ["section", "taxonomy", "term", "RSS"]
     title = "Amici Del Perù"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Nutrition Coach & Chef Consultant"
+    description = "Amici del Perù volontari in Faenza"
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
@@ -54,7 +54,7 @@ disableKinds = ["section", "taxonomy", "term", "RSS"]
     invertSectionColors = false
     
     [params.meta]
-        keywords = "catering, caterign di volontari, amici del peru, catering volontariato"
+        keywords = "volontariato, faenza, omg, operazione mato grosso, catering per eventi, catering, caterign di volontari, amici del peru, catering volontariato, feste di matrimonio "
 
 [sitemap]
   changefreq = "monthly"
